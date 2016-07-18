@@ -1,3 +1,5 @@
+'use strict';
+
 const expect = require('expect')
 
 const fs = require('fs')
@@ -44,7 +46,7 @@ describe('index', () => {
 
   describe('#doCharity', function() {
     it('returns "I like the help people."', function() {
-      expect(lyndonJohnson.doCharity()).toEqual("I like the help people.")
+      expect(lyndonJohnson.doCharity()).toEqual("I like to help people.")
     })
   })
 

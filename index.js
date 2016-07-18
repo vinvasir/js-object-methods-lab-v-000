@@ -1,3 +1,4 @@
+'use strict';
 // code solution here
 class President {
   constructor(name, politicalParty, yearsInOffice, homeState){
@@ -16,16 +17,16 @@ class President {
   }
   
   doCharity(){
-    return "I like to help people";
+    return "I like to help people.";
   }
   
   conductPressInterview(){
-    return "I am proud to be an american";
+    return "I am proud to be an American.";
   }
   
   sayHi(){
     return "Hi, my name is " + this.name + ". I am from " + this.homeState + ". I represent the " 
-            + this.politicalParty + "s and was in office " + this.yearsInOffice + ".";
+            + this.politicalParty + "s, and was in office " + this.yearsInOffice + ".";
   }
 }
 
